@@ -1,0 +1,63 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.textInput {
+  padding: 5px;
+  width: 200px;
+  box-shadow: none;
+  border: none;
+  border-bottom: 2px solid gray;
+}
+.textInput:focus {
+  outline: none;
+  border-bottom: 2px solid chocolate;
+}
+.clearBtn {
+  border: none;
+  background-color: teal;
+  padding: 3px 5px;
+  color: white;
+  cursor: pointer;
+}
+.todoApp {
+  width: 300px;
+  margin: auto;
+  background-color: #5dc6ad;
+  padding: 5px;
+}
+.todoApp h1 {
+  color: lightcoral;
+}
+.todoApp h2 {
+  color: lightgray;
+}
+.todoTextInput {
+  border: none;
+  border-bottom: 2px solid gray;
+  color: black;
+  background-color: white;
+  font-size: 17px;
+  font-style: italic;
+}
+.todoTextInput:focus {
+  outline: none;
+  color: black;
+  background-color: white;
+}
+.todoItem {
+  text-align: left;
+  padding-left: 10px;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+}
+.addBtn {
+  border: none;
+  background-color: white;
+  margin-left: 5px;
+  padding: 5px;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
